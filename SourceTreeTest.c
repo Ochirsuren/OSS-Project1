@@ -1,8 +1,14 @@
 #include <stdio.h>
 int main () {
+
+    int i = 0;
     printf("First OSS Code\n ");
-    printf("Third OSS Code\n")
-    printf("메인 브앤치에 코드를 추가하였음")
+    printf("second OSS Code\n")
+
+    for(int i = 0; i <  10; i++){
+        printf ("test 브랜치\n");
+    }
+    
 
     return 0;
 }
